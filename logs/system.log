@@ -1,0 +1,52 @@
+2019-06-17 18:27:52,669 +0530 [main] INFO  (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2019-06-17 18:27:52,675 +0530 [main] INFO  (Version.java:54) - HHH000412: Hibernate Core {4.3.5.Final}
+2019-06-17 18:27:52,678 +0530 [main] INFO  (Environment.java:239) - HHH000206: hibernate.properties not found
+2019-06-17 18:27:52,679 +0530 [main] INFO  (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+2019-06-17 18:27:52,724 +0530 [main] INFO  (Configuration.java:2073) - HHH000043: Configuring from resource: hibernate.cfg.xml
+2019-06-17 18:27:52,724 +0530 [main] INFO  (Configuration.java:2092) - HHH000040: Configuration resource: hibernate.cfg.xml
+2019-06-17 18:27:53,603 +0530 [main] INFO  (Configuration.java:2214) - HHH000041: Configured SessionFactory: null
+2019-06-17 18:27:53,672 +0530 [main] WARN  (DriverManagerConnectionProviderImpl.java:93) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2019-06-17 18:27:53,678 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:166) - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/testdb]
+2019-06-17 18:27:53,678 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:175) - HHH000046: Connection properties: {user=root, password=****}
+2019-06-17 18:27:53,678 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:180) - HHH000006: Autocommit mode: false
+2019-06-17 18:27:53,679 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:102) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-06-17 18:27:54,326 +0530 [main] INFO  (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2019-06-17 18:27:54,428 +0530 [main] INFO  (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2019-06-17 18:27:54,431 +0530 [main] INFO  (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+2019-06-17 18:27:54,605 +0530 [main] INFO  (SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+2019-06-17 18:27:54,606 +0530 [main] INFO  (SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+2019-06-17 18:27:54,608 +0530 [main] INFO  (SchemaUpdate.java:205) - HHH000396: Updating schema
+2019-06-17 18:27:54,661 +0530 [main] INFO  (TableMetadata.java:66) - HHH000261: Table found: sakila.address
+2019-06-17 18:27:54,661 +0530 [main] INFO  (TableMetadata.java:67) - HHH000037: Columns: [address, address2, phone, district, last_update, address_id, location, postal_code, city_id]
+2019-06-17 18:27:54,662 +0530 [main] INFO  (TableMetadata.java:69) - HHH000108: Foreign keys: [fk_address_city]
+2019-06-17 18:27:54,662 +0530 [main] INFO  (TableMetadata.java:70) - HHH000126: Indexes: [idx_location, primary, idx_fk_city_id]
+2019-06-17 18:27:54,678 +0530 [main] INFO  (TableMetadata.java:66) - HHH000261: Table found: testdb.department
+2019-06-17 18:27:54,678 +0530 [main] INFO  (TableMetadata.java:67) - HHH000037: Columns: [name, id]
+2019-06-17 18:27:54,678 +0530 [main] INFO  (TableMetadata.java:69) - HHH000108: Foreign keys: []
+2019-06-17 18:27:54,678 +0530 [main] INFO  (TableMetadata.java:70) - HHH000126: Indexes: [uk_8ry1iwcodl3ily50pgmc89p4e, primary]
+2019-06-17 18:27:54,694 +0530 [main] INFO  (TableMetadata.java:66) - HHH000261: Table found: mydb.employee
+2019-06-17 18:27:54,694 +0530 [main] INFO  (TableMetadata.java:67) - HHH000037: Columns: [firstname, employee_id, birth_date, cell_phone, lastname]
+2019-06-17 18:27:54,695 +0530 [main] INFO  (TableMetadata.java:69) - HHH000108: Foreign keys: []
+2019-06-17 18:27:54,695 +0530 [main] INFO  (TableMetadata.java:70) - HHH000126: Indexes: [primary]
+2019-06-17 18:27:54,708 +0530 [main] INFO  (TableMetadata.java:66) - HHH000261: Table found: testdb.person
+2019-06-17 18:27:54,708 +0530 [main] INFO  (TableMetadata.java:67) - HHH000037: Columns: [person_salary, person_name, person_id]
+2019-06-17 18:27:54,708 +0530 [main] INFO  (TableMetadata.java:69) - HHH000108: Foreign keys: []
+2019-06-17 18:27:54,708 +0530 [main] INFO  (TableMetadata.java:70) - HHH000126: Indexes: [primary]
+2019-06-17 18:27:54,718 +0530 [main] ERROR (SchemaUpdate.java:236) - HHH000388: Unsuccessful: alter table ADDRESS add column Person_id bigint not null
+2019-06-17 18:27:54,718 +0530 [main] ERROR (SchemaUpdate.java:237) - Duplicate column name 'Person_id'
+2019-06-17 18:27:54,719 +0530 [main] ERROR (SchemaUpdate.java:236) - HHH000388: Unsuccessful: alter table ADDRESS add column AddressLine1 varchar(255)
+2019-06-17 18:27:54,719 +0530 [main] ERROR (SchemaUpdate.java:237) - Duplicate column name 'AddressLine1'
+2019-06-17 18:27:54,720 +0530 [main] ERROR (SchemaUpdate.java:236) - HHH000388: Unsuccessful: alter table ADDRESS add column City varchar(255)
+2019-06-17 18:27:54,720 +0530 [main] ERROR (SchemaUpdate.java:237) - Duplicate column name 'City'
+2019-06-17 18:27:54,720 +0530 [main] ERROR (SchemaUpdate.java:236) - HHH000388: Unsuccessful: alter table ADDRESS add column ZipCode varchar(255)
+2019-06-17 18:27:54,720 +0530 [main] ERROR (SchemaUpdate.java:237) - Duplicate column name 'ZipCode'
+2019-06-17 18:27:54,721 +0530 [main] ERROR (SchemaUpdate.java:236) - HHH000388: Unsuccessful: alter table Employee add column ID integer not null
+2019-06-17 18:27:54,721 +0530 [main] ERROR (SchemaUpdate.java:237) - Duplicate column name 'ID'
+2019-06-17 18:27:54,722 +0530 [main] ERROR (SchemaUpdate.java:236) - HHH000388: Unsuccessful: alter table Employee add column insert_time datetime
+2019-06-17 18:27:54,722 +0530 [main] ERROR (SchemaUpdate.java:237) - Duplicate column name 'insert_time'
+2019-06-17 18:27:54,723 +0530 [main] ERROR (SchemaUpdate.java:236) - HHH000388: Unsuccessful: alter table Employee add column NAME varchar(20)
+2019-06-17 18:27:54,723 +0530 [main] ERROR (SchemaUpdate.java:237) - Duplicate column name 'NAME'
+2019-06-17 18:27:54,724 +0530 [main] ERROR (SchemaUpdate.java:236) - HHH000388: Unsuccessful: alter table Employee add column ROLE varchar(20)
+2019-06-17 18:27:54,724 +0530 [main] ERROR (SchemaUpdate.java:237) - Duplicate column name 'ROLE'
+2019-06-17 18:27:54,724 +0530 [main] INFO  (SchemaUpdate.java:242) - HHH000232: Schema update complete
+2019-06-17 18:27:54,887 +0530 [main] INFO  (DriverManagerConnectionProviderImpl.java:281) - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/testdb]

@@ -1,0 +1,7 @@
+2019-06-17 18:27:54,879 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::3,City1
+2019-06-17 18:27:54,880 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::5,City2
+2019-06-17 18:27:54,880 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::8,City2
+2019-06-17 18:27:54,880 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::9,City3
+2019-06-17 18:27:54,880 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::10,City4
+2019-06-17 18:27:54,880 +0530 [main] INFO  (HibernateLog4jExample.java:36) - List of Employees::11,Franch
+2019-06-17 18:27:54,888 +0530 [main] INFO  (HibernateLog4jExample.java:41) - DONE
